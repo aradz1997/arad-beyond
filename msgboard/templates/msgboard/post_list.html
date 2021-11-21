@@ -1,0 +1,9 @@
+{% extends 'base_board.html' %}
+
+{% block content %}
+    <article>
+        {% for item in blog_list %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </article>
+{% endblock %}
